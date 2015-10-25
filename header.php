@@ -56,12 +56,15 @@
 
 <body>
 
-<div  id="page-wrap" class="backgroundmsts">
+<div  id="page-wrap" class="zerogrid">
 
-<header>  
+<header>
+	<div class="jesusrostro"></div>
+	<nav><?php  showMenu();  ?></nav>	
+</header>
 
 
-  <div  class="cuadro1">
+<div  class="cuadro1">
 
 
 
@@ -79,16 +82,9 @@
 
    </div>
 
-
-
-</header>
-
-
  <!-- nav id="menu" -->    
 <!-- nav id="nav" class=" " -->
-<nav>
-    <?php  showMenu(); // wp_page_menu('register_nav_menus'); ?> 
-</nav>
+
   
 
 <div class="todocontenido zerogrid">
