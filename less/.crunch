@@ -1,0 +1,51 @@
+{
+	"files": {
+		"style.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": [
+				"layout.less",
+				"layout.less",
+				"mediaqueryes.less",
+				"mediaqueryes.less",
+				"menu.less",
+				"menu.less",
+				"reset.less",
+				"reset.less",
+				"style.less",
+				"tipografias.less",
+				"variables.less",
+				"variables.less"
+			]
+		},
+		"variables.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "variables.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": []
+		}
+	}
+}

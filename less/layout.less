@@ -1,3 +1,4 @@
+@import 'variables.less';
 
 body{
 	font: 300 14px/20px 'Open Sans', sans-serif;
@@ -5,18 +6,102 @@ body{
 }
 
 header{
-	// background-color: @colorbase;
-	height: 400px;
-	background-color: red;
+  width: 100%;
+  background-image: url('../images/portada.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: auto;
+  padding-bottom: 25px;
 }
 
-.jesusrostro{
-
-	background-position: top center;
-	background-repeat: no-repeat;
-	background-size: 5% cover;
-	height: 350px;	
+.banner{
+  clear: both;
+  width: 100%;
+  height: auto;
+  margin: 0px auto 0px auto;
+  height: auto;
+  max-height: 407px;
+  height: auto; 
 }
+
+.banner .soliloquy-container {
+  max-width: 1500px;
+  max-height: 407px;
+  height: auto;
+  background-image: none;
+}
+
+
+/*=========================*/
+
+.iconos{
+
+  width: 97%;
+  min-height: 100px;
+  background: #fff;
+  display: block;
+  clear: both;
+  text-align: center;
+  margin: 8px auto 4px auto;
+  padding: 6px 0px 6px 0px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);   
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+
+.iconos-01{
+  display: inline-block;
+  background: #fff;
+  min-height: 80px;
+  width: 15%;
+  margin:4px;
+  text-align: center;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;  
+}
+
+
+
+.iconos-01 img{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 150px; 
+    -webkit-border-radius: 150px; 
+    -moz-border-radius: 150px; 
+ /*  background: url(http://www.tublog.com/tuimagen.jpg) no-repeat; */
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8); 
+    margin:5px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    outline: none;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;     
+}
+
+
+
+.iconos-01 a.linkopacity:hover img {
+	.opacidadlink(80);
+}
+
+.iconos-01 h1, .iconos-01 h2{
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-family: 'Economica-Bold',sans-serif;
+    font-size: 20px;    
+}
+
+/*==========================*/
 
 .zerogrid{ 
 	max-width: 1046px; 
@@ -38,9 +123,6 @@ header{
    display:block;
    clear:both; 
 }
-
-
-
 
 .cuadro1{
   max-width:1024px;

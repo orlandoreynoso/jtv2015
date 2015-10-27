@@ -1,5 +1,27 @@
 
 @colorbase : #1c1565;
+@colorsegundo: #000;
+@opacidad: 80;
+
+.opacidadlink(@opacidad){
+filter:alpha(opacity=@opacidad);
+-moz-opacity: 1.0;  
+opacity: 0.5;
+-khtml-opacity: 1.0; 
+}
+
+.menutransparente(){
+	background-color: rgba(120, 159, 198, 0.8);
+	background: rgba(120, 159, 198, 0.8);
+}
+
+.transiciontexto(){
+  -webkit-transition: color 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -ms-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
 
 .gradienteazul(){
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#282769+31,23538a+52,23538a+52,282769+100 */
@@ -15,7 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#282769', end
 }
 
 .gradienteazul2(){
-	background: rgba(255,37,8,0.94);
+background: rgba(255,37,8,0.94);
 background: -moz-radial-gradient(center, ellipse cover, rgba(255,37,8,0.94) 0%, rgba(246,41,12,0.94) 0%, rgba(240,47,23,0.94) 0%, rgba(28,21,101,0.94) 0%, rgba(40,39,105,1) 61%, rgba(40,39,105,1) 66%);
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,37,8,0.94)), color-stop(0%, rgba(246,41,12,0.94)), color-stop(0%, rgba(240,47,23,0.94)), color-stop(0%, rgba(28,21,101,0.94)), color-stop(61%, rgba(40,39,105,1)), color-stop(66%, rgba(40,39,105,1)));
 background: -webkit-radial-gradient(center, ellipse cover, rgba(255,37,8,0.94) 0%, rgba(246,41,12,0.94) 0%, rgba(240,47,23,0.94) 0%, rgba(28,21,101,0.94) 0%, rgba(40,39,105,1) 61%, rgba(40,39,105,1) 66%);

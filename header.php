@@ -56,12 +56,32 @@
 
 <body>
 
-<div  id="page-wrap" class="zerogrid">
+<div  id="page-wrap">
 
 <header>
-	<div class="jesusrostro"></div>
-	<nav><?php  showMenu();  ?></nav>	
+	<div class="banner">
+      <?php //if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>  
+	<?php 
+	if ( function_exists( 'soliloquy' ) ) { soliloquy( '285' ); } 
+	if ( function_exists( 'soliloquy' ) ) { soliloquy( 'canaljesustv', 'slug' ); }
+	 ?>
+	</div>
+	<nav><?php  showMenu();  ?></nav>		
 </header>
+
+
+
+<div class="todocontenido zerogrid">
+
+<article class="iconos">
+	<?php menu_two(); ?>
+</article>
+
+<article>
+	
+</article>
+
+
 
 
 <div  class="cuadro1">
@@ -85,9 +105,7 @@
  <!-- nav id="menu" -->    
 <!-- nav id="nav" class=" " -->
 
-  
 
-<div class="todocontenido zerogrid">
 			
 
 		

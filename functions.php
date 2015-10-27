@@ -29,7 +29,7 @@ add_image_size( $name, $width, $height, $crop );
 
 
 
-function menu_mujer(){
+function menu_two(){
 
 ?>
 
