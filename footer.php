@@ -1,7 +1,7 @@
-	</div>   <!-- Todo contenido -->
 
 
 
+</div>   <!-- Todo contenido -->
 
 
 <div style="clear: both; "></div>
@@ -16,8 +16,8 @@
 
 <footer id="footer">
 	<div class="group">
-		<p>© 2015 TravelZone.com.gt</p>		
-		<p>13 Calle 1 - 51 Zona 10 Edificio Santa Clara 2 Local 14 | Telefax: (502) 2361-1627  |  Tel: (502) 2361 - 1617  |  (502) 2332 - 3592</p>
+		<p>Canal Jesustv Ciudad de Guatemala</p>		
+		<p>Dirección: 7av. 39-51 zona 8 | Teléfonos: (502) 2440-4032 / 2440-4719 </p>
 		<p>Ciudad de Guatemala.</p>		
 		<p>Desarrollado por: <a href="http://www.orlandoreynoso.com">@orlandoreynoso</a></p>
 		<?php  wp_footer(); ?>

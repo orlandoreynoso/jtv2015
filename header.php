@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> data-ng-app>
 
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -10,7 +10,7 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/style.css">		
-
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 
     <script type='text/javascript' src="<?php bloginfo('stylesheet_directory'); ?>/js/menu_jquery.js"></script>    
 	<script type='text/javascript' src='<?php bloginfo('stylesheet_directory'); ?>/js/ie.js?ver=1.15'></script>
@@ -70,46 +70,5 @@
 </header>
 
 
+<div class="zerogrid">
 
-<div class="todocontenido zerogrid">
-
-<article class="iconos">
-	<?php menu_two(); ?>
-</article>
-
-<article>
-	
-</article>
-
-
-
-
-<div  class="cuadro1">
-
-
-
-  <div id="logo"><a class="logo" href="<?php bloginfo('url'); ?>/"> </a></div>
-
-   
-   <!-- .............INICIA CUADRO BUSCAR................   -->
-<div class="cuadro-buscador">
-    <div class="buscador"><?php  get_search_form();  //  if (is_page(5)) {   dynamic_sidebar('busqueda-header');   }   ?></div>
-    <div class="cuadro-redes">
-        <p>Síguenos en:</p>
-        <a class="linkopacity" href="https://www.facebook.com/pages/Travel-Zone/122124437856110"></a> 
-    </div>
-</div>
-
-   </div>
-
- <!-- nav id="menu" -->    
-<!-- nav id="nav" class=" " -->
-
-
-			
-
-		
-
-
-
-	

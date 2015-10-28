@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Template Name: homeJesustv
+Template Name: Paginas Interiores
  */
 
  get_header();
@@ -9,24 +9,7 @@ Template Name: homeJesustv
 
 ?>
 
-<section class="iconos">
-    <?php menu_two(); ?>
-</section>
-
-<section id="block01">
-  
-  <article  class="col-logo">
-      <?php  if (is_page(4)) {   dynamic_sidebar('previo-evento-mes');   }   ?>                
-  </article>
-
-  <article  class="col-youtube">
-      <iframe width="480" height="392" src="http://www.ustream.tv/embed/614135?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;">    </iframe><br /><a href="http://www.ustream.tv" style="font-size: 12px; line-height: 20px; font-weight: normal; text-align: left;" target="_blank">Broadcast live streaming video on Ustream</a>
-  </article>
-
-</section>
-
-
-<section id="content">
+<section id="content" class="clearfix">
   
   <article class="col-2-3">
       <div class="mapeo"><?php the_breadcrumb(); ?></div>
@@ -69,7 +52,6 @@ Template Name: homeJesustv
 
   <aside class="col-1-5">
       <div class="cuadro-buscador">
-        <h1>Busca tu contenido favorito</h1>
       <div class="buscador"><?php  get_search_form();  //  if (is_page(5)) {   dynamic_sidebar('busqueda-header');   }   ?></div>
       </div>
 
@@ -82,6 +64,7 @@ Template Name: homeJesustv
       <iframe scrolling="no" frameborder="0" class="face_cocos" src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/Jesustvcanal&amp;width=263&amp;colorscheme=light&amp;connections=0&amp;stream=true&amp;header=true&amp;height=380" allowtransparency="true"> </iframe>             
       </div>
   </aside>
+
 
 </section>
 

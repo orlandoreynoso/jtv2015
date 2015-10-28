@@ -88,11 +88,8 @@ Template Name: Testimonios
 
 
 									<article class="post resume">
-
 										<div class="post-title">
-
 											<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-
 											<small class="meta"><span class="label-fecha"><?php the_time(get_option('date_format')); ?></span> &bull; <span class="label-cat"> Categoría </span> <span class="icon-cat"> &raquo </span>  <?php the_category(', '); ?></small>
 
 										</div><!-- /header -->
@@ -102,7 +99,6 @@ Template Name: Testimonios
 											<div class="linkit"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail'); ?></a></div>											
 											<div class="the-content"><?php the_excerpt();  ?></div>
 											<div class="continuar-read"><a href="<?php the_permalink(); ?>" class="readmore"><?php _e('Continuar leyendo &rarr;','apk'); ?></a></div>
-											
 										</div>	
           									
 
@@ -113,8 +109,6 @@ Template Name: Testimonios
 									
 
 									<?php endwhile; ?>
-
-
 
 
 
