@@ -10,7 +10,10 @@ Template Name: homeJesustv
 ?>
 
 <section class="iconos">
+  <div class="cuadro-iconos">
     <?php menu_two(); ?>
+  </div>
+   
 </section>
 
 <section id="block01">
