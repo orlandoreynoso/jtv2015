@@ -52,10 +52,11 @@ Template Name: Paginas Interiores
 
   <aside class="col-1-5">
       <div class="cuadro-buscador">
+        <h1>Busca tu contenido favorito</h1>        
       <div class="buscador"><?php  get_search_form();  //  if (is_page(5)) {   dynamic_sidebar('busqueda-header');   }   ?></div>
       </div>
 
-      <div class="titulo"><h2>Hazte fan en facebook</h2></div>
+      <div class="titulo"><h2>Danos like en facebook</h2></div>
       <div class="lateral">
       <?php  if (is_page(4)) {   dynamic_sidebar('ultimas-actualizaciones');   }       ?>
       </div>  

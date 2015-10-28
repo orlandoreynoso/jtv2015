@@ -36,7 +36,7 @@ Template Name: homeJesustv
       <div id="compartir">    
       <p>Compartir  &raquo; </p>          
       <!-- AddThis Button BEGIN -->
-      <div class="addthis_toolbox addthis_default_style ">
+      <div class="addthis_toolbox addthis_default_style">
       <a class="addthis_button_preferred_1"></a>
       <a class="addthis_button_preferred_2"></a>
       <a class="addthis_button_preferred_3"></a>
@@ -48,6 +48,9 @@ Template Name: homeJesustv
       <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4def925768ffe7cc"></script>
       <!-- AddThis Button END -->
       </div> 
+      <div class="clearfix">
+        
+      </div>
 
       <div class="contenido-cartelera">
                   <?php
@@ -73,10 +76,10 @@ Template Name: homeJesustv
   <aside class="col-1-5">
       <div class="cuadro-buscador">
         <h1>Busca tu contenido favorito</h1>
-      <div class="buscador"><?php  get_search_form();  //  if (is_page(5)) {   dynamic_sidebar('busqueda-header');   }   ?></div>
+        <div class="buscador"><?php  get_search_form(); ?></div>
       </div>
 
-      <div class="titulo"><h2>Hazte fan en facebook</h2></div>
+      <div class="titulo"><h2>Danos like en facebook</h2></div>
       <div class="lateral">
       <?php  if (is_page(4)) {   dynamic_sidebar('ultimas-actualizaciones');   }       ?>
       </div>  
@@ -86,6 +89,7 @@ Template Name: homeJesustv
       </div>
   </aside>
 
+<div class="clearfix"></div>
 </section>
 
 
