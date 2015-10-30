@@ -397,6 +397,14 @@ add_action('widgets_init' ,'apk_register_sidebars');
     }
 
 
+    if (function_exists('register_sidebar')) {
+        register_sidebar(
+            array(
+                'name' => 'Ultimas Actualizaciones',
+                'id' => 'ultimas-actualizaciones'
+        ));
+    }
+
 	if ( function_exists('register_sidebar') ){
 		register_sidebar(array(
 		'name' => 'Barra Lateral Inicio',

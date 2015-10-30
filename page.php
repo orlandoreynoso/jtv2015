@@ -56,11 +56,11 @@ Template Name: Paginas Interiores
       <div class="buscador"><?php  get_search_form();  //  if (is_page(5)) {   dynamic_sidebar('busqueda-header');   }   ?></div>
       </div>
 
-      <div class="titulo"><h2>Danos like en facebook</h2></div>
-      <div class="lateral">
-      <?php  if (is_page(4)) {   dynamic_sidebar('ultimas-actualizaciones');   }       ?>
-      </div>  
 
+      <div class="lateral">
+      <?php    dynamic_sidebar('ultimas-actualizaciones');       ?>
+      </div>  
+      <div class="titulo"><h2>Danos like en facebook</h2></div>
       <div class="redes">
       <iframe scrolling="no" frameborder="0" class="face_cocos" src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/Jesustvcanal&amp;width=263&amp;colorscheme=light&amp;connections=0&amp;stream=true&amp;header=true&amp;height=380" allowtransparency="true"> </iframe>             
       </div>

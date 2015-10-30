@@ -62,8 +62,10 @@
 	<div class="banner">
       <?php //if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>  
 	<?php 
-	if ( function_exists( 'soliloquy' ) ) { soliloquy( '285' ); } 
-	if ( function_exists( 'soliloquy' ) ) { soliloquy( 'canaljesustv', 'slug' ); }
+
+
+if ( function_exists( 'soliloquy' ) ) { soliloquy( '1243' ); } 
+if ( function_exists( 'soliloquy' ) ) { soliloquy( 'canaljesustv', 'slug' ); }
 	 ?>
 	</div>
 	<nav><?php  showMenu();  ?></nav>		
